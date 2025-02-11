@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root{
+    --color-bg-primary: #f4f4f4;
+    --color-bg-secondary: #007bff;
+    --color-bg-tertiary: #0056b3;
+    --color-bg-quatenary: #ffffff;
+
+    --color-font-primary: #f4f4f4;
+
+    --color-border: #ccc;
+    --box-shadow: #0000001A;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: var(--color-bg-primary);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+/* --------------------------------------------------------- */
+/* header styles */
+
+header {
+    background-color: var(--color-bg-secondary);
+    color: var( --color-font-primary);
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--color-bg-tertiary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--color-font-primary);
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------- */
+/* generic styles */
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* --------------------------------------------------------- */
+/* footer styles */
+
+footer {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-primary);
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
