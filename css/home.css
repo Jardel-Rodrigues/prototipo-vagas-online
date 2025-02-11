@@ -35,6 +35,12 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    
+}
+
+.lista-vagas a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .card-vagas {
