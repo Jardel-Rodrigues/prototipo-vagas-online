@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="css/home.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">Vagas Online</div>
-            <ul>
-                <li><a href="home.html">Início</a></li>
-                <!-- <li><a href="perfil.html">Perfil</a></li> -->
-                <!-- <li><a href="#">Publicar Vaga</a></li> -->
-                <!-- <li><a href="#">Notificações</a></li> -->
-                <li><a href="login.html">Faça Login</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo"><a href="home.html"><h1>Vagas Online</h1></a></div>
+        <ul>
+          <li><a href="home.html">Início</a></li>
+          <!-- <li><a href="perfil.html">Perfil</a></li> -->
+          <!-- <li><a href="#">Publicar Vaga</a></li> -->
+          <!-- <li><a href="#">Notificações</a></li> -->
+          <li><a href="login.html">Faça Login</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="section-buscar-vagas">
-            <h1>Encontre Uma Oportunidade de Trabalho</h1>
-            <input type="text", placeholder="Digite o titulo da vaga">
-            <button>Buscar Vagas</button>
-        </section>
-        <section class="section-vagas">
-            <h2>Vagas em Destaque</h2>
-            <div class="lista-vagas">
-                <a href="">
-                    <div class="card-vagas">
-                        <h3>Desenvolvedor Java</h3>
-                        <p>Vagas Abertas 5</p>
-                    </div>
-                </a>
-                <div class="card-vagas">
-                    <h3>Analista de Dados</h3>
-                    <p>Vagas Abertas 1</p>
-                </div>
-                <div class="card-vagas">
-                    <h3>Designer UI/UX</h3>
-                    <p>Vagas Abertas 2</p>
-                </div>
+      <section class="section-buscar-vagas">
+        <div>
+          <h1>Encontre Uma Oportunidade de Trabalho</h1>
+          <form action="">
+            <input type="text" , placeholder="Digite o titulo da vaga" />
+            <button type="submit">Buscar Vagas</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- <select name="categoria" id="">
+        <option value="QA">QA</option>
+        <option value="Desenvolvedor Java">Desenvolvedor Java</option>
+      </select>
+
+      <div class="jodfjgidfjgi">
+        <div class="sgdf">
+          <input type="checkbox" value="QA">
+          <label for="QA">QA</label>
+        </div>
+        <div>
+          <input type="checkbox" value="QA">
+          <label for="Dev Front End">Dev Front End</label>
+        </div>
+        <div>
+          <input type="checkbox" value="QA">
+          <label for="Dev Back End">Dev Back End</label>
+        </div>
+      </div> -->
+      
+      <section class="section-vagas">
+        <h2>Vagas em Destaque</h2>
+        <div class="lista-vagas">
+          <a href="">
+            <div class="card-vagas">
+              <h3>Desenvolvedor Java</h3>
+              <p>Vagas Abertas 5</p>
             </div>
-        </section>
+          </a>
+          <div class="card-vagas">
+            <h3>Analista de Dados</h3>
+            <p>Vagas Abertas 1</p>
+          </div>
+          <div class="card-vagas">
+            <h3>Designer UI/UX</h3>
+            <p>Vagas Abertas 2</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2025 Vagas Online - Todos os direitos reservados</p>
-        <p>Contatos</p>
+      <p>&copy; 2025 Vagas Online - Todos os direitos reservados</p>
+      <p>Contatos</p>
     </footer>
-</body>
+  </body>
 </html>

@@ -1,0 +1,19 @@
+@import url("styles.css");
+
+.section-formulario-de-cadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card-formulario-de-cadastro {
+    background-color: var(--color-bg-secondary);
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+}
+
+.input-formulario {
+    margin-top: 10px;
+}

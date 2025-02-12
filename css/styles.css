@@ -67,9 +67,11 @@ nav ul li a {
 /* --------------------------------------------------------- */
 /* generic styles */
 
-.logo {
-    font-size: 24px;
+.logo a {
+    font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
+    color: inherit;
 }
 
 

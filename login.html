@@ -9,7 +9,7 @@
   <body>
     <header>
       <nav>
-        <div class="logo">Vagas Online</div>
+        <div class="logo"><a href="home.html"><h1>Vagas Online</h1></a></div>
         <ul>
           <li><a href="home.html">Início</a></li>
           <li><a href="login.html">Faça Login</a></li>
@@ -19,23 +19,28 @@
     <main>
       <section class="section-login">
         <div class="card-login">
-          <form>
+          <form action="home.html">
             <h1>Login</h1>
-            <div>
-              <div>
-                <input type="text" , placeholder="E-mail" />
-                <div>Campo Obrigatorio</div>
+            <div class="form-login">
+              <div class="inputs">
+                <input type="email", placeholder="E-mail", required />
               </div>
-              <div>
-                <input type="password" , placeholder="Senha" />
+              <div class="inputs">
+                <input type="password", placeholder="Senha", required />
               </div>
-              <div>
+              <div class="botao-entrar">
                 <button type="submit">Entrar</button>
               </div>
             </div>
           </form>
+          <div class="recuperar-senha"><a href="recuperarSenha.html">Esqueceu a senha ?</a></div>
+          <div class="criar-conta"><a href="criarConta.html">Cadastre-se</a></div>
         </div>
       </section>
     </main>
+    <footer>
+        <p>&copy; 2025 Vagas Online - Todos os direitos reservados</p>
+        <p>Contatos</p>
+      </footer>
   </body>
 </html>

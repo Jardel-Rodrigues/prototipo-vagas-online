@@ -3,14 +3,27 @@
 .section-buscar-vagas {
     background-color: var(--color-bg-quatenary);
     text-align: center;
-    padding: 50px;   
+    padding: 50px;
 }
 
-.section-buscar-vagas input, .section-buscar-vagas button {
+.section-buscar-vagas input {
     border: 0.5px solid var(--color-border);
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
+    border: 1px solid;
+    font-size: 14px;
+    outline: none;
+}
+
+.section-buscar-vagas button {
+    border: 0.5px solid var(--color-border);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .section-buscar-vagas input {
@@ -20,6 +33,7 @@
 .section-buscar-vagas button:hover {
     background-color: var(--color-border);
     transition-duration: 1ms;
+    cursor: pointer;
 }
 
 .section-vagas {

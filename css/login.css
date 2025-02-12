@@ -3,18 +3,78 @@
 .section-login {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
-.card-login form {
-    background-color: var(--color-bg-quatenary);
-    width: 100%;
-    max-height: 360px;
+.card-login {
+    background-color: var(--color-bg-secondary);
+    color: var();
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    align-items: center;
 }
 
 .card-login h1 {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-font-primary);
+}
+
+.form-login {
+    margin-top: 20px;
+}
+
+input {
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: solid 1px ;
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    width: 250px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.botao-entrar button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    height: 40px;
+    width: 250px;
+}
+
+button:hover {
+    background-color: var(--color-border);
+}
+
+.card-login a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.recuperar-senha {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.criar-conta {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
 }
